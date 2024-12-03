@@ -1,0 +1,77 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #444;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        table td img {
+            max-width: 100px;
+            border-radius: 5px;
+        }
+        .actions a {
+            color: #007bff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .actions a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+        .message {
+            padding: 10px;
+            margin: 20px 0;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .message.success {
+            background-color: #28a745;
+            color: white;
+        }
+        .message.error {
+            background-color: #dc3545;
+            color: white;
+        }
+        .logout-btn {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #ff4d4d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .logout-btn:hover {
+            background-color: #e03e3e;
+        }
